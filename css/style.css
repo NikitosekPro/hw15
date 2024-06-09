@@ -384,21 +384,20 @@ body {
 
 .projects-item {
   border: 1px solid var(--border-color);
+  flex-basis: calc((90% - 40px) / 3);
+  
 }
 
 .projects-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
 
-.projects-item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
 
-.projects-item:not(:nth-child(n + 7)){
-  margin-bottom: 30px;
-}
+
+
 
 .projects-name {
   font-size: 18px;
